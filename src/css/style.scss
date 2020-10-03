@@ -4,13 +4,22 @@
     --brown: #8E8D8A;
     --red: #E98074;
     --redRed: #E85A4F;
+    --lessRed: #f5d9d6;
 }
 html{
     background-color: var(--lightTan);
 }
+.title{
+    display:flex;
+    justify-content: space-between;
+}
+.cart{
+    display:flex;
+    flex-direction: row;
+}
 .main{
     text-align: center;
-    background-color: var(--brown);
+    background-color: var(--red);
     width: 70%;
     margin: 0 auto;
     padding: 1rem;
